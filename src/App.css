@@ -1,0 +1,148 @@
+.pl-body{
+  background-color: #ffffff;
+  display: flex;
+  height: 100%;
+}
+
+.pl-scorers-cont{
+  min-width: 350px;
+  max-width: 350px;
+}
+
+.scorers-panel-fixed{
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  height: 100%;
+  width: 350px;
+  background-color: rgba(62, 25, 91, 1);
+  padding: 25px;
+  box-sizing: border-box;
+  overflow: auto;
+  color: #ffffff;
+}
+
+.scorer-title{
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.si-item{
+  margin-top: 25px;
+}
+
+.scorer-name{
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.scorer-team{
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.scorer-stats{
+  font-size: 12px;
+  color: #ffffff;
+  display: flex;
+}
+
+.stat-cont:first-child{
+  flex-grow: 1;
+}
+
+.stat-cont{
+  margin-top: 5px;
+}
+
+.main-stat{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.loading{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.pl-table-cont{
+  flex-grow: 1;
+  height: 100vh;
+  max-height: 100vh;
+  padding: 0px 25px 25px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.pl-logo{
+  width: 300px;
+  height: 150px;
+  background: url(./img/epl.png) no-repeat;
+  background-size: contain;
+}
+
+.pl-table{
+  width: 100%;
+}
+
+.pl-tbl-header{
+  text-align: left;
+  font-size: 17px;
+}
+
+.pl-tbl-header.small{
+  width: 50px;
+  text-align: center;
+}
+
+.pl-tbl-cell{
+  padding: 6px 0px;
+  font-size: 15px;
+}
+
+.pl-tbl-cell:not(:first-child){
+  border-bottom: 1px solid #ededed;
+}
+
+.pl-tbl-cell:first-child{
+  border-left: 3px solid transparent;
+}
+
+.pl-tbl-cell.cl{
+  border-color: green;
+}
+
+.pl-tbl-cell.el{
+  border-color: orange;
+}
+
+.pl-tbl-cell.relegate{
+  border-color: red;
+}
+
+.pl-tbl-cell.small{
+  text-align: center;
+}
+
+.pos{
+  font-weight: bold;
+}
+
+.blue{
+  color: #7858ED;
+  font-weight: bold;
+}
+
+.green{
+  color: green;
+}
+
+.yellow{
+  color: orange;
+}
+
+.red{
+  color: red;
+}
